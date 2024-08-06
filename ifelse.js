@@ -35,3 +35,4 @@ if (place == "London" &&  weathers == "Cloudy"){
 }else {
     console.log("What? It isn't cloudy for once?")
 }
+

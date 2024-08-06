@@ -45,7 +45,7 @@ let breakfast = "Weetabix"
 let lunch = "Maccies"
 let dinner = "Roasties"
 
-console.log(`Mandem had ${breakfast} then I went to the Mystery Mobile and had some ${lunch} with Scooby & Shaggy, after this we went too get dinner and ate some ${dinner} in Toby's Carvary`)
+console.log(`I had ${breakfast} then I went to the Mystery Mobile and had some ${lunch} with Scooby & Shaggy, after this we went too get dinner and ate some ${dinner} in Toby's Carvary`)
 
 breakfast = "coissant"
 lunch = "KFC"
