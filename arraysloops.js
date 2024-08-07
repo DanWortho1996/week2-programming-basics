@@ -74,7 +74,7 @@ console.log(films)
 
 //Activity 2
 let num1 = 0;
-for(let num1 = 0; num1 < 52; num1++)
+for(let num1 = 0; num1 <= 52; num1++)
     while(num1 != 52){
         console.log(num1);
         num1  = Number[Math.floor(Math.random()*52)];
