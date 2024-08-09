@@ -12,8 +12,7 @@
 // if (weather == "sunny"){
 //     console.log("Well, I better wear some E45 init")
 // }else if (weather == "rainy"){
-//     console.log("Go Get the umbrella lad")
-// } else{
+//     console.log("Go Get the umbrella")
 //     console.log("Hmmm. Should of got Factor 50 instead.")
 // };
 
@@ -83,23 +82,23 @@ if (password < 8){
     console.log("The password must be 8 characters long")
 }else{
     console.log("Success Password, You will now be logged in, Please Wait...")
-
     }
 
 //Activity 4
 let num  = 15;
-if (num / 3){
+if (num % 3 === 0 && num % 5 === 0){
+    console.log("Fizz Buzz");
+}else if (num  % 3 === 0){
     console.log("Fizz")
-}else if (num / 5){
+}else if (num  % 5 === 0){
     console.log("Buzz")
 }else{
-    (num / 3 && 5)
-    console.log("This is Fizz & Buzz")}
+    console.log(num)}
 
 //Activity 5
 let numb = 10101;
 let numb1 = 20202;
-if(numb == 10101 && numb1 == 20202){
+if(numb && numb1){
     console.log(numb)
 }else(numb = 20202)
     console.log("20202")
@@ -121,3 +120,16 @@ let blahh = "i"
 console.log(blahh)
 
 //Activity 8
+let word = (`stats`);
+i = `stats`;
+if(word == i){
+    console.log(`True ${word}`)
+    true
+}else{
+    console.log("False")
+    false
+}
+
+//Activity 9
+let numo1 = 10;
+let numo2 = 20;

@@ -64,7 +64,8 @@ console.log(`Tomorrow, I plan to eat ${breakfast} for breakfast. For lunch I wil
 //let dateToday = new Date();
 
 //let myBirthDate = new Date('1996, 30, 08');
- 
+
+//Activity 3 
 const today = new Date();
 const myBirthDate = new Date ("1996, 08, 30")
 const oneDay = 24 * 60 *  60 * 1000;
