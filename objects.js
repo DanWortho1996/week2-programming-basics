@@ -59,7 +59,7 @@ coffeeShop.sayWelcome();
 
 //Algorithm/Activity
 let name, pw = "Username, Password";
-if(username  = name && pw = password){
+if(username  = name && pw == password){
 console.log("Correct")
 }else{
     console.log("Nahh, Wrong Mate")
